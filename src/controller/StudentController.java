@@ -31,6 +31,7 @@ public class StudentController {
                 input = in.nextInt();
             } catch (Exception e) {
                 System.out.println("请输入正确的选项！");
+                in = new Scanner(System.in);
                 continue;
             }
 
